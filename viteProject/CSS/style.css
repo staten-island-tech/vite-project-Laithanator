@@ -7,10 +7,16 @@ body,
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
 body {
-  margin: 0;
-  height: 100vh;
+  min-height: 100%;
+}
+
+body {
   background: linear-gradient(to bottom right, #ff7b39, rgb(255, 73, 49));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 h1 {
   font-family: "Pacifico", cursive;
@@ -24,6 +30,10 @@ h1 {
 }
 
 .btn {
+  align-self: center;
+  background-color: aqua;
+  height: 8%;
+  width: 10%;
 }
 .container {
   display: flex;

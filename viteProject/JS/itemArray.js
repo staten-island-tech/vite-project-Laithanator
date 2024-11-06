@@ -70,3 +70,5 @@ const RRCharacters = [
     shirtless: false,
   },
 ];
+
+export { RRCharacters };
