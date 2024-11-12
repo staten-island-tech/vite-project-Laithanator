@@ -3,6 +3,8 @@ import { RRCharacters } from "../JS/itemArray";
 
 const DOMSelectors = {
   container: document.querySelector(".container"),
+  shirtless: document.querySelector(".shirtless"),
+  nShirtless: document.querySelector(".nShirtless"),
 };
 
 let idCounter = 0;
@@ -20,3 +22,8 @@ function start() {
   });
 }
 start();
+DOMSelectors.shirtless.addEventListener("click", function (event) {
+  RRCharacters.filter(RRCharacters.shirtless === true);
+  DOMSelectors.container.innerHTML === "";
+  start();
+});
