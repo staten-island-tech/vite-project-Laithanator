@@ -1,0 +1,35 @@
+:root {
+  --orangeGradient: linear-gradient(to bottom right, #ff7b39, rgb(255, 73, 49));
+  --colorfulGradient: linear-gradient(to bottom, #1246d6, #3ffcfc, #4ae82b);
+
+  --h1: 7.594rem;
+  --h2: 3rem;
+  --h3: 2.5rem;
+  --h4: 2rem;
+  --p: 1rem;
+}
+
+.version1 {
+  --background: var(--orangeGradient);
+  --text: var(--colorfulGradient);
+}
+
+.version2 {
+  --background: var(--colorfulGradient);
+  --text: var(--orangeGradient);
+}
+
+body {
+  background: var(--background);
+}
+
+h1 {
+  background: var(--text);
+  font-family: "Pacifico", cursive;
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  font-size: 5vw;
+  text-align: center;
+  margin-bottom: 0.5vh;
+}

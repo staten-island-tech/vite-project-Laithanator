@@ -67,7 +67,7 @@ const RRCharacters = [
     characterName: "Van Wilder",
     imgLink: "/party.jpeg",
     alt: "Ryan Reynolds as Van Wilder in Van Wilder: Party Liaison",
-    shirtless: false,
+    shirtless: true,
   },
 ];
 
