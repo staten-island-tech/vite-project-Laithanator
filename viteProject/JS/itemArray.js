@@ -31,7 +31,7 @@ const RRCharacters = [
     movieName: "The Proposal",
     characterName: "Andrew Paxton",
     imgLink: "/proposal.jpeg",
-    alt: "Ryan Reynolds as Andrew Paxton in The Proposal",
+    alt: "Ryan Reynolds as Andrew Paxton in the Proposal",
     shirtless: true,
   },
   {
